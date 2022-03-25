@@ -1,4 +1,7 @@
 
 
-kilo: kilo.c
-	$(CC) kilo.c -o kilo -Wall -Wextra -pedantic -std=c99
+atto: atto.c
+	$(CC) atto.c -o atto -Wall -Wextra -pedantic -std=c99
+
+clean: atto
+	rm atto

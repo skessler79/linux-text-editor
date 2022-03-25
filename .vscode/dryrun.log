@@ -1,5 +1,6 @@
-make --dry-run --always-make --keep-going --print-directory
+make --dry-run --keep-going --print-directory
 make: Entering directory '/home/selwyn/Programming/text_editor_c'
-cc kilo.c -o kilo -Wall -Wextra -pedantic -std=c99
 make: Leaving directory '/home/selwyn/Programming/text_editor_c'
+ 
+make: *** No rule to make target 'atto.c', needed by 'atto'.
  
